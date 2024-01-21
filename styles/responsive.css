@@ -59,3 +59,44 @@
        .nav-bar-text-logo img{
         width: 100%;
        }        
+       #banner{
+        height: 100%;
+        width: 100%;
+      
+    }
+    .banner-area {
+        margin: 5px;
+        padding: 20px;
+    }
+    .banner-title {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: var(--text-color);
+      }
+      .banner-desc {
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 400;
+        color: var(--text-color);
+      }
+      .banner-input-section {
+       flex-direction: column;
+        
+      }
+      .banner-button{
+       width: 100%;
+      }
+      #when-input{
+        width: 100%;
+      }
+      #select-input{
+        width: 100%;
+      }
+      .banner-input-text{
+        width: 100%;
+        text-align: left;
+        
+      }
+    
