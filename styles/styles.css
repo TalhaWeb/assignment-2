@@ -49,15 +49,15 @@
   .nav-bar-text-logo img {
     width: 45px;
   }
-  .nav-bar-menue {
+  .nav-bar-menu {
     width: 50%;
   }
-  #menue-list {
+  #menu-list {
     display: flex;
     gap: 40px;
     justify-content: space-between;
   }
-  #menue-list li {
+  #menu-list li {
     list-style: none;
   }
   .burger {
@@ -100,7 +100,7 @@
     margin-bottom: 20px;
     color: var(--text-color);
   }
-  .banner-dris {
+  .banner-desc {
     width: 540px;
     text-align: center;
     margin: 0 auto;
@@ -180,7 +180,7 @@
     font-weight: 800;
     margin-bottom: 24px;
   }
-  .tour-dris {
+  .tour-desc {
     font-size: 1rem;
     color: var(--colorful-text);
     font-weight: 400;
@@ -199,7 +199,7 @@
     border-radius: 8px;
   }
 /* destination section */
-#choce-our-destination {
+#choose-our-destination {
     width: 100%;
     margin-top: 100px;
     text-align: center;
@@ -208,7 +208,7 @@
     font-size: 2rem;
     font-weight: 800;
   }
-  .destination-dris {
+  .destination-desc {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -349,7 +349,7 @@
   padding:20px; 
 }
 .deals-title,
-.deals-dris {
+.deals-desc {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 800;
@@ -386,3 +386,68 @@
   justify-content: space-between;
   margin-top: 30px;
 }
+/* why choose us section */
+.top-text {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .top-text h2 {
+    color: var(--colorful-text);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .top-text p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  #why-choose-us {
+    margin-top: 100px;
+  }
+  .card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .card .choose-title {
+    color: var(--colorful-text);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .card .choose-desc {
+    color: var(--colorful-text);
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .why-choose-us-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    width: 50%;
+    flex-basis: 45%;
+    margin: 0 auto;
+  }
+  .card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+  }
+  .card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+  }
+  .another {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    padding: 30px;
+  }
