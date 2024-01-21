@@ -69,4 +69,88 @@
     font-weight: 400;
   }
 
+/* banner section start */
+#banner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .banner-area {
+    margin: 70px auto;
+    text-align: center;
+  }
+  .banner-text-section {
+    margin-bottom: 45px;
+  }
+  .banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  .banner-dris {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    color: var(--text-color);
+  }
   
+  .banner-input-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  .banner-input-text{
+    width: 22%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: var(--colorful-text);
+    
+  }
+  #when-input{
+    width: 22%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: var(--colorful-text);
+  }
+  #select-input{
+    width: 22%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: var(--colorful-text);
+  }
+  .banner-button{
+    width: 22%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--btn-color);
+    color: #fff;
+  }
+  .banner-button .fa-solid {
+    color: var(--text-color);
+    font-size: 1rem;
+  }
