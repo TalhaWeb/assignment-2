@@ -299,3 +299,15 @@
     bottom: 5%;
     font-size: 1rem;
   }   
+  /* footer area */
+  .footer-area{
+    padding: 10px;
+    
+  }
+  .icon a{
+    font-size: 1.5rem;
+  }
+  .top-area{
+    flex-direction: column;
+  }
+  }
