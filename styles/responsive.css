@@ -245,4 +245,57 @@
    .all-btn.popular{
      width: 80%;
    }
-   
+  
+  /* video section */
+  .video-title{
+    font-size: 1.7rem;
+    margin-bottom: 16px;
+    font-weight: 800;
+    
+  }
+  .video-desc{
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+  .video-section-area{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .video-section iframe{
+    max-width: 100%;
+  }
+   .text-section{
+    width: 100%;
+  } 
+  .text-section{
+    width: 100%;
+    margin-bottom: 50px;
+  } 
+  
+  /* newsletter */
+  .newsletter-area{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .newsletter-input{
+    width: 100%;
+    padding: 30px;
+  }
+  .newsletter-img {
+    width: 100%;
+    
+  }
+  .newsletter-input input{
+  width: 100%;
+  }
+  .newsletter-input button{
+    width: 100%;
+  }
+  .colorful{
+    width: 150px;
+    height: 80px;
+    right: 3%;
+    bottom: 5%;
+    font-size: 1rem;
+  }   
